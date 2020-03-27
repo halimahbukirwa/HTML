@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Welcome to JavaScript</title>
+    <script type="text/javascript">
+      document.write("<h1 style='color:magenta'>");
+      document.write("Welcome to Java"+"Programming!</h1>");
+      window.alert("Welcome\n Shanklin");
+      var name;
+      name=window.prompt(" Enter full name please");
+      document.writeln(name);
+      var firstNumber;
+      var secondNumber;
+      var number1;
+      var number2;
+      var sum;
+      firstNumber=window.prompt("Enter first number");
+      secondNumber=window.prompt("Enter second number");
+      number1=parseInt(firstNumber);
+      number2=parseInt(secondNumber);
+      sum=number1+number2;
+      document.writeln("<h1> The sum is"+sum+"</h1>");
+      var now = new Date();
+      var hour = now.getHours();
+      if(hour<12)
+      document.writeln("<h2> Good morning,"+name+" </h2>");
+     if(hour>=12){
+       hour = hour-12
+     if(hour<6)
+      document.writeln("<h2> Good Afternoon,"+name+"</h2>");
+      if(hour>=6)
+      document.writeln("<h2> Good Evening,"+name+"</h2>");
+    }
+
+       var num=20;
+       var counter=0;
+       var team=10;
+      while(counter<num){
+      document.writeln("<p> How are you"+name+"</p>");
+      counter++;
+    }
+    for(var counter=0;counter<team;counter++){
+      document.writeln("<h3 style='color:blue'>Conrad Halimah</h3>");
+    }
+    do{
+      document.writeln("<h4 style='color:red'> My name is Halimah </h4>")
+    }
+    while(counter<team)
+
+    var Schools = new Array("Makerere","KIU","Ndejje","MUBs","Kyambogo","Mbarara");
+    var points = new Array(24,36,29,78,56);
+    var sorted=Array.sort(points);
+    document.write("<p>"+sorted+"</p>");
+
+
+
+
+
+
+    </script>
+  </head>
+  <body>
+  <p>click refresh or reload to run the script again.</p>
+
+  </body>
+</html>
+/
